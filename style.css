@@ -1,0 +1,59 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  /* Hero section */
+  .hero {
+    position: relative;
+    height: 600px;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  /* Featured content */
+  .featured {
+    padding: 40px;
+  }
+  
+  /* Movie rows */
+  .movie-rows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Movie card */
+  .movie-card {
+    /* Styling for individual movie cards */
+  }
+  
